@@ -9,7 +9,7 @@ public with sharing class AccountTriggerHandler {
             if(acct.ShippingState != acct.BillingState){
                 acct.ShippingState = acct.BillingState;
             }
-        }
+        } 
     }
 
 }

@@ -5,7 +5,7 @@
 <apex:page id="ContactView" standardController="Contact">
 
     <apex:pageBlock title="Contact View">
-        <apex:pageBlockSection>
+        <apex:pageBlockSection >
 
             First Name: {! Contact.FirstName } <br/>
             Last Name: {! Contact.LastName } <br/>

@@ -2,8 +2,7 @@
  - Created by lakshmip on 1/7/2019.
  -->
 
-<aura:component description="MyContactList" controller="MyContactListController" implements="flexipage:availableForRecordHome,
-                                                        force:hasRecordId" access="global">
+<aura:component description="MyContactList" controller="MyContactListController" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global">
 
     <aura:attribute name="recordId" type="Id" />
     <aura:attribute name="Account" type="Account" />
@@ -21,6 +20,6 @@
         <!-- Contact list goes here -->
         <lightning:datatable data="{!v.Contacts}" columns="{!v.Columns}" keyField="Id" hideCheckboxColumn="true"/>
     </lightning:card>
-
+ 
 
 </aura:component>

@@ -84,4 +84,3 @@
     <c:expensesList expenses="{!v.expenses}"/>
 
 </aura:component>
-

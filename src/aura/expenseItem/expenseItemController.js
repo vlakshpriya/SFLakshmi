@@ -7,5 +7,5 @@
         if(mydate){
             component.set("v.formatdate", new Date(mydate));
         }
-    },
+    }, 
 })

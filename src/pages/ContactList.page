@@ -4,7 +4,7 @@
 
 <apex:page id="ContactList" standardController="Contact" recordSetVar="contacts">
 
-    <apex:form>
+    <apex:form >
 
         <apex:pageBlock title="Contacts List" id="contacts_list">
 
@@ -26,8 +26,7 @@
             <table style="width: 100%"><tr>
                 <td>
 
-                    Page: <apex:outputText
-                            value=" {!PageNumber} of {! CEILING(ResultSize / PageSize) }"/>
+                    Page: <apex:outputText value=" {!PageNumber} of {! CEILING(ResultSize / PageSize) }"/>
 
                 </td>
 

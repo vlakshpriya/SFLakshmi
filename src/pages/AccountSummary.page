@@ -5,7 +5,7 @@
 <apex:page id="AccountSummary" standardController="Account">
 
     <apex:pageBlock title="Account Summary">
-        <apex:pageBlockSection>
+        <apex:pageBlockSection >
 
 
         </apex:pageBlockSection>
