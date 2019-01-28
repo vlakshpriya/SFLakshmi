@@ -1,0 +1,24 @@
+<!--
+ - Created by lakshmip on 1/7/2019.
+ -->
+
+<aura:component description="DealActionList" controller="DealViewerController" implements="flexipage:availableForRecordHome" access="global">
+
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="Contact" type="Contact"/>
+    <aura:attribute name="Deal_Action" type="Deal_Action__c"/>
+    <aura:attribute name="Columns" type="List"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.ShowDealAction}"/>
+
+    <force:recordData aura:id="ContactRecord"
+                      recordId="{!v.recordId}"
+                      targetFields="{!v.Contact}"
+                      layoutType="FULL"
+                      />
+
+    <lightning:card iconName="standard:contact" title="{! 'Deal Action List for' +v.Contact.Name}">
+          <lightning:datatable data="{!v.Deal_Action}" columns="{!v.Columns}" keyField="Id" hideCheckboxColumn="true"/>
+    </lightning:card>
+
+</aura:component>
