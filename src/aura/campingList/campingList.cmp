@@ -76,5 +76,5 @@ slds-p-vertical--medium">
         </section>
     </div>
     <!-- / ITERATIING ITEM LISTS -->
-
+    
 </aura:component>

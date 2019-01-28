@@ -4,7 +4,7 @@
 
 <apex:page id="CreateContact" standardController="Contact">
 
-    <apex:form>
+    <apex:form >
 
         <apex:pageBlock title="Create Contact">
 
@@ -16,7 +16,7 @@
 
             </apex:pageBlockSection>
 
-            <apex:pageBlockButtons>
+            <apex:pageBlockButtons >
 
                 <apex:commandButton action="{! Save}" value="Save"/>
 

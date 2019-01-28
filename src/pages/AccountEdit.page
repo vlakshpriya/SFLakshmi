@@ -4,7 +4,7 @@
 
 <apex:page id="AccountEdit" standardController="Account">
 
-    <apex:form>
+    <apex:form >
 
         <apex:pageBlock title="Edit Account">
 
@@ -24,15 +24,13 @@
             <apex:pageBlock title="Contacts">
 
                 <apex:pageBlockTable value="{!Account.contacts}" var="contact">
-                    <apex:column>
+                    <apex:column >
 
-                        <apex:outputLink
-                                value="{! URLFOR($Action.Contact.Edit, contact.Id) }">
+                        <apex:outputLink value="{! URLFOR($Action.Contact.Edit, contact.Id) }">
                             Edit
                         </apex:outputLink>
                         &nbsp;
-                        <apex:outputLink
-                                value="{! URLFOR($Action.Contact.Delete, contact.Id) }">
+                        <apex:outputLink value="{! URLFOR($Action.Contact.Delete, contact.Id) }">
                             Del
                         </apex:outputLink>
 
