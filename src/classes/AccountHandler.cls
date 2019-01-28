@@ -29,7 +29,7 @@ public with sharing class AccountHandler
             Opportunity opp = new Opportunity();
             opp.Name = a.Name + 'Opportunity';
             opp.AccountId = a.Id;
-            opp.StageName = 'Prospecting';
+            opp.StageName = 'Quote';
             opp.CloseDate = System.Today().addmonths(1);
             opps.add(opp);
         }
