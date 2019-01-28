@@ -1,0 +1,16 @@
+<!--
+ - Created by lakshmip on 12/5/2018.
+ -->
+
+<apex:page id="ShowImage" showHeader="false" sideBar="false" standardStylesheets="false">
+
+    <h3>Images</h3>
+
+    <p>A hidden message:
+
+    <apex:image alt="cat" title="cat"
+            url="{!URLFOR($Resource.vfimagetest, 'cats/kitten1.jpg')}"/>
+
+    </p>
+
+</apex:page>

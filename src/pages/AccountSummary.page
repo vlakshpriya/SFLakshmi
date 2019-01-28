@@ -1,0 +1,14 @@
+<!--
+ - Created by lakshmip on 12/5/2018.
+ -->
+
+<apex:page id="AccountSummary" standardController="Account">
+
+    <apex:pageBlock title="Account Summary">
+        <apex:pageBlockSection>
+
+
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+</apex:page>
